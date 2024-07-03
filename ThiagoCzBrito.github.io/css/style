@@ -1,0 +1,35 @@
+:root {
+    --cor-primaria: blue;
+    --fonte-grande: 2rem;
+
+}
+
+h1 {
+    font-size: var(--fonte-grande);
+    color: var(--cor-primaria);
+
+}
+
+p {
+    font-size: calc(var(--fonte-grande) /2);
+    color: var(--cor-primaria);
+
+}
+
+section {
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+input: {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 20px;
+    
+}
+
+button {
+    margin-top: rgba(0, 128, 0, 0.947);
+
+}

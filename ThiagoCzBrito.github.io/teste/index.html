@@ -1,24 +1,47 @@
-  <form action="./">
-    <label for="nome">Nome</label>
-    <input type="text" id="nome" name="nome"> required
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Site</title>
+</head>
+   
+</html>
 
-    <label for="senha">Senha</label>
-    <input type="password" id="senha" name="senha"> required
+<body>
+    <h1>Meu Primeiro Site</h1>
+    <p>Site onde comecei minha jornada com programação. Esta página é um marco na minha carreira profissional porque, realmente, é por aqui que eu vou começar comparar meus progressos, monitorar minha evolução, construir A MINHA HISTÓRIA no mundo da programação.</p> 
+
+  <form action="./">
+    <section>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required>
+    </section>
+
+    <section>
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" required>
+    </section>
 
     <div>
         <input type="checkbox" name="termos" value="aceito">
         <label for="termos">Termos</label>
     </div>
 
-    <label for="email">Email</label>
-    <input type="email" id="email" name="email"> required
+    <section>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+    </section>
 
-    <label for="idade">Idade</label>
-    <input type="number" id="idade" name="idade"> required
+    <section>
+        <label for="idade">Idade</label>
+        <input type="number" id="idade" name="idade" required>
+    </section>
 
-    <label for="cpf">CPF</label>
-    <input type="number" id="cpf" name="cpf" placeholder="000.000.000-00"> required
-
+    <section>
+        <label for="cpf">CPF</label>
+        <input type="number" id="cpf" name="cpf" placeholder="000.000.000-00" required>
+    </section>
 
     <div class="checkbox">
         <input type="checkbox" id="termos" name="termos" value="aceito">
@@ -52,13 +75,15 @@
 
     <button>Enviar</button>
 
-    <label for="parcelas"></label>
+    <section>
+        <label for="parcelas">Parcelas</label>
     <select name="parcelas" id="parcelas">
         <option value="1x">1x de 400</option>
         <option value="2x">2x de 200</option>
         <option value="4x">4x de 100</option>
         <option value="8x">8x de 50</option>
     </select>
+    </section>
 
     <label for="mensagem">Mensagem</label>
     <textarea name="mensagem" id="mensagem" cols="30" rows="10">
